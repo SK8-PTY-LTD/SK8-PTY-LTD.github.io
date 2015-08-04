@@ -55,9 +55,9 @@
 					<h2><span style="font:80px/80px pacificoregular;">Design</span>SK8</h2>
 					<p>App &nbsp;&bull;&nbsp; Web &nbsp;&bull;&nbsp; Expert</p>
 					<!-- <ul class="actions">
-														<li><a href="#" class="button special">Activate</a></li>
-														<li><a href="#" class="button special">Activate</a></li>
-														<li><a href="#" class="button special">Activate</a></li>
+															<li><a href="#" class="button special">Activate</a></li>
+															<li><a href="#" class="button special">Activate</a></li>
+															<li><a href="#" class="button special">Activate</a></li>
 					</ul> -->
 				</div>
 				<a href="#one" class="more scrolly">Learn More</a>
@@ -95,41 +95,36 @@
 					<header class="major">
 						<h2>Contact Us</h2>
 					</header>
-					
-					
-					
 					<div class="container">
 						<form class="cd-form floating-labels">
 							<fieldset>
-									
-									<div class="icon">
-										<label class="cd-label" for="cd-name">Name</label>
-										<input class="user" type="text" name="cd-name" id="cd-name" required>
-									</div>
-									
-									<!-- ... -->
-								</fieldset>
 								
-								<fieldset>
-									<legend>Project Info</legend>
+								<div class="icon">
+									<label class="cd-label" for="cd-name">Name</label>
+									<input class="user" type="text" name="cd-name" id="cd-name" required>
+								</div>
+								
+							</fieldset>
+							
+							<fieldset>
+								
+								<div>
+									<h4>Budget</h4>
 									
-									<div>
-										<h4>Budget</h4>
-										
-										<p class="cd-select icon">
-											<select class="budget">
-												<option value="0">Select Budget</option>
-												<option value="1">&lt; $5000</option>
-												<option value="2">$5000 - $10000</option>
-												<option value="3">&gt; $10000</option>
-											</select>
-										</p>
-									</div>
+									<p class="cd-select icon">
+										<select class="budget">
+											<option value="0">Select Budget</option>
+											<option value="1">&lt; $5000</option>
+											<option value="2">$5000 - $10000</option>
+											<option value="3">&gt; $10000</option>
+										</select>
+									</p>
+								</div>
+								
+								<div>
+									<h4>Project type</h4>
 									
-									<div>
-										<h4>Project type</h4>
-										
-										<div class="container2">
+									<div class="container2">
 										<ul class="cd-form-list">
 											<li style="list-style: none;">
 												<input type="radio" name="radio-button" id="cd-radio-1" checked>
@@ -147,112 +142,82 @@
 											</li>
 										</ul>
 									</div>
-									</div>
-									
-									<!-- ... -->
-									
-									<div class="icon">
-										<label class="cd-label" for="cd-textarea">Project description</label>
-										<textarea class="message" name="cd-textarea" id="cd-textarea" required></textarea>
-									</div>
-									
-									<div>
-										<input type="submit" value="Send Message">
-									</div>
-								</fieldset>
-							</form>
-							
-							
-							
-							
-						</div>
-						
-					</section>
-					<!-- Footer -->
-					<footer id="footer">
-						<ul class="icons">
-							<li><a href="http://twitter.com/sk8techs" class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
-							<li><a href="http://www.facebook.com/sk8tech" class="icon fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
-							<li><a href="https://plus.google.com/+Sk8Asia/about" class="icon fa-google-plus" target="_blank"><span class="label">Google+</span></a></li>
-							<li><a href="https://instagram.com/sk8techs/" class="icon fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
-							<li><a href="http://www.weibo.com/sk8tech" class="icon fa-weibo" target="_blank"><span class="label">Weibo</span></a></li>
-							<li><a href="http://sk8tech.tumblr.com/" class="icon fa-tumblr" target="_blank"><span class="label">Tumblr</span></a></li>
-							<li><a href="https://goo.gl/Jaa62c" class="icon fa-youtube" target="_blank"><span class="label">Youtube</span></a></li>
-							<li><a href="https://www.linkedin.com/company/sk8-pty-ltd" class="icon fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
-							<!-- <li><a href="https://www.github.com/sk8-pty-ltd" class="icon fa-github" target="_blank"><span class="label">Github</span></a></li> -->
-							<li class="hidden-xs"><a href="mailto:feedback@sk8.asia?Subject=Project%20Enquiry" class="icon fa-envelope"><span class="label">Mail</span></a></li>
-							<!-- <li class="visible-xs-inline-block"><a href="sms:+61449843149" class="icon fa-envelope"><span class="label">SMS</span></a></li>
-							<li class="visible-xs-inline-block"><a href="tel:+61449843149" class="icon fa-phone"><span class="label">Phone</span></a></li> -->
-						</ul>
-						<ul class="copyright">
-							<span class="copyright" itemtype="https://schema.org/LocalBusiness">
-								&copy;  <span itemprop="copyrightYear">2015<span> <a href="http://sk8.asia" itemprop="significantLink" class="url">
-									<span itemprop="copyrightHolder creator editor provider" class="fn org">SK8 PTY LTD </span></a>
-								</span>
-							</ul>
-						</footer>
+								</div>
+								<div class="icon">
+									<label class="cd-label" for="cd-textarea" style="position:fixed">Project description</label>
+									<textarea class="message" name="cd-textarea" id="cd-textarea" required></textarea>
+								</div>
+								
+								<div style="margin-top:20px">
+									<input type="submit" value="Send Message">
+								</div>
+							</fieldset>
+						</form>
 					</div>
-					<style>
-					.grid { max-width: 1000px; text-align: center; }
-					.grid figure { position: relative; max-height: 360px; cursor: pointer; }
-					.grid figure figcaption { padding: 2em; color: #fff; text-transform: uppercase; font-size: 1.25em; -webkit-backface-visibility: hidden; backface-visibility: hidden; }
-					.grid figure figcaption::before, .grid figure figcaption::after { pointer-events: none; }
-					.grid figure figcaption, .grid figure figcaption > a { position: absolute; top: 0; height: 100%; }
-					.grid figure figcaption > a { z-index: 1000; text-indent: 200%; white-space: nowrap; font-size: 0; opacity: 0; }
-					.grid figure h2 { word-spacing: -0.15em; font-weight: 300; }
-					.grid figure h2 span { font-weight: 800; }
-					.grid figure h2, .grid figure p { margin: 0; }
-					.grid figure p { letter-spacing: 1px; font-size: 68.5%; }
-					figure.effect-bubba { background: #ffffff; }
-					figure.effect-bubba img { opacity: 0.7; -webkit-transition: opacity 0.35s; transition: opacity 0.35s; }
-					figure.effect-bubba:hover img { opacity: 0.4; }
-					figure.effect-bubba figcaption::before, figure.effect-bubba figcaption::after { position: absolute; top: 30px; right: 30px; bottom: 30px; left: 30px; content: ''; opacity: 0; -webkit-transition: opacity 0.35s, -webkit-transform 0.35s; transition: opacity 0.35s, transform 0.35s; }
-					figure.effect-bubba figcaption::before { border-top: 1px solid #fff; border-bottom: 1px solid #fff; -webkit-transform: scale(0, 1); transform: scale(0, 1); }
-					figure.effect-bubba figcaption::after { border-right: 1px solid #fff; border-left: 1px solid #fff; -webkit-transform: scale(1, 0); transform: scale(1, 0); }
-					figure.effect-bubba h2 { padding-top: 30%; -webkit-transition: -webkit-transform 0.35s; transition: transform 0.35s; -webkit-transform: translate3d(0, -20px, 0); transform: translate3d(0, -20px, 0); }
-					figure.effect-bubba p {  opacity: 0; -webkit-transition: opacity 0.35s, -webkit-transform 0.35s; transition: opacity 0.35s, transform 0.35s; -webkit-transform: translate3d(0, 20px, 0); transform: translate3d(0, 20px, 0); }
-					figure.effect-bubba:hover figcaption::before, figure.effect-bubba:hover figcaption::after { opacity: 1; -webkit-transform: scale(1); transform: scale(1); }
-					figure.effect-bubba:hover h2, figure.effect-bubba:hover p { opacity: 1; -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); }
-					*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
-					.clearfix:before, .clearfix:after { display: table; content: ''; }
-					.clearfix:after { clear: both; }
-					.row > * {
-						padding: 0 0 0 0;
-						}
-
-
-						.cd-form .icon input, .cd-form .icon select, .cd-form .icon textarea {
- 	padding-left: 54px !important;
-}
-
-.container{
-	width: 60%;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.container2{
-	width: 60%;
-	height:150px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.alignleft {
-	float: left;
-	margin-left: 45px;
-}
-
- 
-
-					</style>
-					<!-- Scripts -->
-					<script src="assets/js/jquery.min.js"></script>
-					<script src="assets/js/jquery.scrollex.min.js"></script>
-					<script src="assets/js/jquery.scrolly.min.js"></script>
-					<script src="assets/js/skel.min.js"></script>
-					<script src="assets/js/util.js"></script>
-					<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-					<script src="assets/js/main.js"></script>
-				</body>
-			</html>
+					
+				</section>
+				<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="http://twitter.com/sk8techs" class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+						<li><a href="http://www.facebook.com/sk8tech" class="icon fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+						<li><a href="https://plus.google.com/+Sk8Asia/about" class="icon fa-google-plus" target="_blank"><span class="label">Google+</span></a></li>
+						<li><a href="https://instagram.com/sk8techs/" class="icon fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+						<li><a href="http://www.weibo.com/sk8tech" class="icon fa-weibo" target="_blank"><span class="label">Weibo</span></a></li>
+						<li><a href="http://sk8tech.tumblr.com/" class="icon fa-tumblr" target="_blank"><span class="label">Tumblr</span></a></li>
+						<li><a href="https://goo.gl/Jaa62c" class="icon fa-youtube" target="_blank"><span class="label">Youtube</span></a></li>
+						<li><a href="https://www.linkedin.com/company/sk8-pty-ltd" class="icon fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+						<!-- <li><a href="https://www.github.com/sk8-pty-ltd" class="icon fa-github" target="_blank"><span class="label">Github</span></a></li> -->
+						<li class="hidden-xs"><a href="mailto:feedback@sk8.asia?Subject=Project%20Enquiry" class="icon fa-envelope"><span class="label">Mail</span></a></li>
+						<!-- <li class="visible-xs-inline-block"><a href="sms:+61449843149" class="icon fa-envelope"><span class="label">SMS</span></a></li>
+						<li class="visible-xs-inline-block"><a href="tel:+61449843149" class="icon fa-phone"><span class="label">Phone</span></a></li> -->
+					</ul>
+					<ul class="copyright">
+						<span class="copyright" itemtype="https://schema.org/LocalBusiness">
+							&copy;  <span itemprop="copyrightYear">2015<span> <a href="http://sk8.asia" itemprop="significantLink" class="url">
+								<span itemprop="copyrightHolder creator editor provider" class="fn org">SK8 PTY LTD </span></a>
+							</span>
+						</ul>
+					</footer>
+				</div>
+<style>
+.grid { max-width: 1000px; text-align: center; }
+.grid figure { position: relative; max-height: 360px; cursor: pointer; }
+.grid figure figcaption { padding: 2em; color: #fff; text-transform: uppercase; font-size: 1.25em; -webkit-backface-visibility: hidden; backface-visibility: hidden; }
+.grid figure figcaption::before, .grid figure figcaption::after { pointer-events: none; }
+.grid figure figcaption, .grid figure figcaption > a { position: absolute; top: 0; height: 100%; }
+.grid figure figcaption > a { z-index: 1000; text-indent: 200%; white-space: nowrap; font-size: 0; opacity: 0; }
+.grid figure h2 { word-spacing: -0.15em; font-weight: 300; }
+.grid figure h2 span { font-weight: 800; }
+.grid figure h2, .grid figure p { margin: 0; }
+.grid figure p { letter-spacing: 1px; font-size: 68.5%; }
+figure.effect-bubba { background: #ffffff; }
+figure.effect-bubba img { opacity: 0.7; -webkit-transition: opacity 0.35s; transition: opacity 0.35s; }
+figure.effect-bubba:hover img { opacity: 0.4; }
+figure.effect-bubba figcaption::before, figure.effect-bubba figcaption::after { position: absolute; top: 30px; right: 30px; bottom: 30px; left: 30px; content: ''; opacity: 0; -webkit-transition: opacity 0.35s, -webkit-transform 0.35s; transition: opacity 0.35s, transform 0.35s; }
+figure.effect-bubba figcaption::before { border-top: 1px solid #fff; border-bottom: 1px solid #fff; -webkit-transform: scale(0, 1); transform: scale(0, 1); }
+figure.effect-bubba figcaption::after { border-right: 1px solid #fff; border-left: 1px solid #fff; -webkit-transform: scale(1, 0); transform: scale(1, 0); }
+figure.effect-bubba h2 { padding-top: 30%; -webkit-transition: -webkit-transform 0.35s; transition: transform 0.35s; -webkit-transform: translate3d(0, -20px, 0); transform: translate3d(0, -20px, 0); }
+figure.effect-bubba p { opacity: 0; -webkit-transition: opacity 0.35s, -webkit-transform 0.35s; transition: opacity 0.35s, transform 0.35s; -webkit-transform: translate3d(0, 20px, 0); transform: translate3d(0, 20px, 0); }
+figure.effect-bubba:hover figcaption::before, figure.effect-bubba:hover figcaption::after { opacity: 1; -webkit-transform: scale(1); transform: scale(1); }
+figure.effect-bubba:hover h2, figure.effect-bubba:hover p { opacity: 1; -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); }
+*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after { display: table; content: ''; }
+.clearfix:after { clear: both; }
+.row > * { padding: 0 0 0 0; }
+.cd-form .icon input, .cd-form .icon select, .cd-form .icon textarea { padding-left: 54px !important; }
+.container { width: 60%; margin-left: auto; margin-right: auto; }
+.container2 { width: 60%; height: 150px; margin-left: auto; margin-right: auto; }
+.alignleft { float: left; margin-left: 45px; }
+header.major { margin: 0; }
+</style>
+				<!-- Scripts -->
+				<script src="assets/js/jquery.min.js"></script>
+				<script src="assets/js/jquery.scrollex.min.js"></script>
+				<script src="assets/js/jquery.scrolly.min.js"></script>
+				<script src="assets/js/skel.min.js"></script>
+				<script src="assets/js/util.js"></script>
+				<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+				<script src="assets/js/main.js"></script>
+			</body>
+		</html>
