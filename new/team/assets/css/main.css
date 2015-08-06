@@ -3853,8 +3853,6 @@
 	}
 
 
-
-
 /* About Gellary*/
 
 #gallery {
@@ -3885,6 +3883,7 @@
 	margin-left: auto;
 	margin-right: auto;
 }
+
 #gallery li  img {
 	max-width:100% !important;
 	height:auto;
@@ -3898,7 +3897,7 @@
 
 
 #ourgoal p {
-	width:50%;
+	width:60%;
 	margin-top: 50px;
 	margin-left: auto;
 	margin-right: auto;
