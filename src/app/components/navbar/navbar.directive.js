@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('sk8App')
+    .module('sk8app')
     .directive('acmeNavbar', acmeNavbar);
 
   /** @ngInject */

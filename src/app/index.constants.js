@@ -3,7 +3,7 @@
   'use strict';
 
   angular
-    .module('sk8App')
+    .module('sk8app')
     .constant('malarkey', malarkey)
     .constant('moment', moment);
 

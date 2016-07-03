@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('sk8App')
+    .module('sk8app')
     .controller('MainController', MainController);
 
   /** @ngInject */
@@ -11,7 +11,7 @@
 
     vm.awesomeThings = [];
     vm.classAnimation = '';
-    vm.creationDate = 1467556365533;
+    vm.creationDate = 1467539598432;
     vm.showToastr = showToastr;
 
     activate();
