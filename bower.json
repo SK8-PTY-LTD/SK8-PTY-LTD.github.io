@@ -34,7 +34,8 @@
     "jquery.stellar": "^0.6.2",
     "jquery.BlackAndWhite": "^0.3.7",
     "headroom.js": "^0.9.3",
-    "jquery-sticky": "^1.0.3"
+    "jquery-sticky": "^1.0.3",
+    "font-awesome": "fontawesome#^4.6.3"
   },
   "devDependencies": {
     "angular-mocks": "~1.5.3"
@@ -48,6 +49,29 @@
         "assets/fonts/bootstrap/glyphicons-halflings-regular.ttf",
         "assets/fonts/bootstrap/glyphicons-halflings-regular.woff",
         "assets/fonts/bootstrap/glyphicons-halflings-regular.woff2"
+      ]
+    },
+    "font-awesome": {
+      "main": [
+        "scss/font-awesome.scss",
+        "fonts/fontawesome-webfont.eot",
+        "fonts/fontawesome-webfont.svg",
+        "fonts/fontawesome-webfont.ttf",
+        "fonts/fontawesome-webfont.woff",
+        "fonts/fontawesome-webfont.woff2"
+      ]
+    },
+    "owl-carousel": {
+      "main": [
+        "owl-carousel/owl.carousel.css",
+        "owl-carousel/owl.theme.css",
+        "owl-carousel/owl.transitions.css",
+        "owl-carousel/owl.carousel.min.js"
+      ]
+    },
+    "waypoints": {
+      "main": [
+        "lib/jquery.waypoints.min.js"
       ]
     }
   },
