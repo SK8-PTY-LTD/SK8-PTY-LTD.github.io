@@ -12,7 +12,7 @@
     var vm;
     var el;
 
-    beforeEach(module('sk8app'));
+    beforeEach(module('sk8App'));
     beforeEach(inject(function($compile, $rootScope, githubContributor, $q, _$log_) {
       $log = _$log_;
 

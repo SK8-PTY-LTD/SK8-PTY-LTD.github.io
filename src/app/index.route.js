@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('sk8app')
+    .module('sk8App')
     .config(routerConfig);
 
   /** @ngInject */
